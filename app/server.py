@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://www.dropbox.com/s/cgz3znot0eoalli/export%20%281%29.pkl?raw=1'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = classes = ['Acadian_Flycatcher','Acorn_Woodpecker','Alder_Flycatcher','Allens_Hummingbird','American_Avocet ','American_Bittern','American_Coot','Black-bellied_Whistling-Duck',' Neotropic_Cormorant',' Great_Blue_Heron ','Snowy_Egret ','Yellow-crowned_Night-Heron',' Coopers_Hawk',' Peregrine_Falcon',' Killdeer',' Laughing_Gull',' White-winged_Dove',' Mourning_Dove',' Monk_Parakeet',' Eastern_Screech-Owl',' Great_Horned_Owl',' Common_Nighthawk','Chimney_Swift','Ruby-throated_Hummingbird','Red-bellied_Woodpecker','Downy_Woodpecker','Great_Crested_Flycatcher','Loggerhead_Shrike','Blue_Jay','Purple_Martin','Barn_Swallow','Carolina_Chickadee','Tufted_Titmouse','Carolina_Wren','Ruby-crowned_Kinglet','American_Robin','Northern_Mockingbird','European_Starling','Cedar_Waxwing','Yellow-rumped_Warbler','Magnolia_Warbler','American_Redstart','Summer_Tanager','Northern_Cardinal','Rose-brested_Grosbeak ','Indigo_Bunting',' Great-tailed_Grackle', 'House_Finch','American_Goldfinch','House_Sparrow']
 path = Path(__file__).parent
 
 app = Starlette()
